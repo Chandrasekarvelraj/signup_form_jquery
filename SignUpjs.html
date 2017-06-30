@@ -1,0 +1,59 @@
+<!Doctype html>
+  <head>
+    <title>
+	SignUp form
+    </title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="myscripts.js"></script>
+  </head>
+  <body style="background-color:#b3ffec;">
+	<h1 id="signup"><i><u>SignUp</i></u></h1>
+	</br>
+	</br>
+	<center><form name="SignUpForm" id="myform">
+	  <div class="table1">
+<div>Name
+	<div class="boxalign">
+		<input type="text" id="Name" name="Name" placeholder="Enter Name" title="enter 3 to 7 characters only" autofocus />
+	</div>
+</div>
+	<div id="nameErrMessage" class="nameErrMessage">Enter 3-7 characters only*</div>
+<div>Email
+	<div class="boxalign">
+		<input type=email id="Email" name="Email" placeholder="Enter email id" title="enter valid email address" />
+	</div>
+</div>
+	<div id="emailErrMessage">Enter valid email Id*</div>
+<div>Password
+	<div class="boxalign">
+		<input type=password id="Password" name="password" placeholder="Enter password" title="enter 8 characters"/>
+	</div>
+</div>
+	<div id="passwordErrMessage">Enter only 8 characters*</div>
+<div>Confirm Password
+	<div class="boxalign">
+		<input type=password id="RePassword" name="confirmPassword" placeholder="ReEnter password" title="enter 8 characters"/>
+	</div>
+</div>
+	<div id="rePasswordErrMessage">Enter only 8 characters*</div>
+<div>Gender
+	<span class="boxalign">
+	<input type=radio name="gender" vaue="male" checked/>male</br>
+	<input type=radio name="gender" vaue="female"  />female
+	</span>
+</div>
+</br>
+<div>country
+	<select name="country" class="boxalign">
+		<option value="India">India</option>
+		<option value="pakistan">Pakistan</option>
+		<option value="srilanka">srilanka</option>
+	</select>
+</div>
+</br>
+<center><input type=submit id="submitBtn" name="submit" value="submit" /></center>
+       	  </div>
+	</form></center>
+  </body>
+</html>
